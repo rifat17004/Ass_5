@@ -1,0 +1,221 @@
+/* shared */
+.d-flex-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.d-flex-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.border {
+  border: 1px solid red;
+}
+.icon-size {
+  width: 56px;
+  height: 56px;
+}
+/* ======================================================== */
+body {
+  max-width: 1200px;
+  margin: auto;
+  background: #e6e3e3;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 10px;
+}
+.logo {
+  display: flex;
+
+  align-items: center;
+}
+
+.logo h3 {
+  font-size: 35px;
+}
+#not-bold {
+  font-weight: 300;
+}
+.logo img {
+  width: 51px;
+  height: 51px;
+}
+.theme-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.theme-container img {
+  width: 40px;
+  height: 40px;
+}
+.icon-container {
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
+}
+#tic {
+  width: 32px;
+  height: 32px;
+  color: white;
+  font-weight: bolder;
+  background: #3752fd;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+#course-complete {
+  font-size: 2rem;
+  font-weight: bold;
+}
+/* ======================================================= */
+
+main {
+  margin-top: 10px;
+}
+.blog-container {
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr;
+  gap: 10px;
+  padding: 15px;
+}
+
+.first-container {
+  padding: 15px;
+  background: rgb(232, 229, 229);
+  border-radius: 8px;
+}
+.second-container {
+  text-align: center;
+  background: linear-gradient(to right, #3752fd, #9ba8f8);
+}
+.third-container {
+  padding: 15px;
+  background: rgb(232, 229, 229);
+  border-radius: 8px;
+}
+
+/* ============================================================ */
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 2%;
+}
+.right-container {
+  background: white;
+  height: 100vh;
+  padding: 45px;
+}
+/* ============================================ */
+#clock {
+  width: 32px;
+  height: 32px;
+  color: black;
+  margin-right: 5px;
+}
+.activity {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.history-clear-btn {
+  background: #3752fd;
+  border: none;
+  color: white;
+  height: 44px;
+  width: 150px;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+/* ========================================================= */
+.b-white {
+  background: white;
+  padding: 5px;
+}
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+.cart {
+  display: flex;
+  flex-direction: column;
+  background: rgb(237, 236, 236);
+  padding: 20px;
+  width: 20rem;
+  height: 15rem;
+}
+.cart h1 {
+  font-size: 1.5rem;
+}
+.date-compertment {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.date {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+}
+.complt_btn {
+  background: #3752fd;
+  border: none;
+  color: white;
+  height: 44px;
+  width: 120px;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+.desk-btn {
+  background: #3752fd;
+  border: none;
+  color: white;
+  height: 44px;
+  width: 200px;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.complt_btn:disabled {
+  background-color: gray;
+  cursor: not-allowed;
+}
+
+.Dinamic-Masage-Style {
+  background: rgb(237, 110, 110);
+  padding: 10px;
+  margin-top: 10px;
+}
+.Dinamic-Masage-Style p {
+  font-weight: 700;
+}
+.dinamic-msg {
+  margin-top: 5px;
+}
+
+.Qustion {
+  background: white;
+  font-weight: bold;
+  margin-bottom: 1px;
+  margin-top: 1px;
+  padding: 2px;
+}
+.anser {
+  background: white;
+  font-weight: bold;
+  padding: 2px;
+}
